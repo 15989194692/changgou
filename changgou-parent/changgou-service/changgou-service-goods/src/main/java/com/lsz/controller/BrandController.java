@@ -19,7 +19,7 @@ public class BrandController {
     BrandService brandService;
 
 
-    @PostMapping("/findList")
+    @PostMapping("/search")
     public Result<List<Brand>> findList(@RequestBody Brand brand) {
         List<Brand> list = brandService.findList(brand);
 
