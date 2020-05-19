@@ -1,0 +1,4 @@
+entity/PageResult.class
+entity/Page.class
+entity/Result.class
+entity/StatusCode.class
