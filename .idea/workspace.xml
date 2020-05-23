@@ -26,16 +26,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df763d84-b983-4216-b1d0-60e13d884756" name="Default Changelist" comment="品牌增删改查，使用mybatis-plus实现">
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/CategoryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/lsz/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-file/src/main/java/com/lsz/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/AlbumController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/AlbumController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/AlbumMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/AlbumMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/AlbumService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/AlbumService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/AlbumServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/AlbumServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/BrandMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/BrandMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/BrandService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/BrandService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.28516746" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -192,7 +188,7 @@
       <workItem from="1590155795136" duration="1528000" />
       <workItem from="1590157356925" duration="883000" />
       <workItem from="1590158397679" duration="587000" />
-      <workItem from="1590159166073" duration="10933000" />
+      <workItem from="1590159166073" duration="13104000" />
     </task>
     <task id="LOCAL-00001" summary="品牌增删改查，使用mybatis-plus实现">
       <created>1590155906234</created>
@@ -260,38 +256,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1589981725949" />
-    <state width="1033" height="242" key="GridCell.Tab.0.bottom" timestamp="1590239852433">
+    <state width="1033" height="242" key="GridCell.Tab.0.bottom" timestamp="1590239926571">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590239852433" />
-    <state width="1033" height="242" key="GridCell.Tab.0.center" timestamp="1590239852432">
+    <state width="1033" height="242" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590239926571" />
+    <state width="1033" height="242" key="GridCell.Tab.0.center" timestamp="1590239926570">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590239852432" />
-    <state width="1033" height="242" key="GridCell.Tab.0.left" timestamp="1590239852432">
+    <state width="1033" height="242" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590239926570" />
+    <state width="1033" height="242" key="GridCell.Tab.0.left" timestamp="1590239926570">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590239852432" />
-    <state width="1033" height="242" key="GridCell.Tab.0.right" timestamp="1590239852433">
+    <state width="1033" height="242" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590239926570" />
+    <state width="1033" height="242" key="GridCell.Tab.0.right" timestamp="1590239926571">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590239852433" />
-    <state width="1033" height="242" key="GridCell.Tab.1.bottom" timestamp="1590239852434">
+    <state width="1033" height="242" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590239926571" />
+    <state width="1033" height="242" key="GridCell.Tab.1.bottom" timestamp="1590239926572">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590239852434" />
-    <state width="1033" height="242" key="GridCell.Tab.1.center" timestamp="1590239852433">
+    <state width="1033" height="242" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590239926572" />
+    <state width="1033" height="242" key="GridCell.Tab.1.center" timestamp="1590239926572">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590239852433" />
-    <state width="1033" height="242" key="GridCell.Tab.1.left" timestamp="1590239852433">
+    <state width="1033" height="242" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590239926572" />
+    <state width="1033" height="242" key="GridCell.Tab.1.left" timestamp="1590239926571">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590239852433" />
-    <state width="1033" height="242" key="GridCell.Tab.1.right" timestamp="1590239852434">
+    <state width="1033" height="242" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590239926571" />
+    <state width="1033" height="242" key="GridCell.Tab.1.right" timestamp="1590239926572">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="242" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590239852434" />
+    <state width="1033" height="242" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590239926572" />
     <state width="1388" height="152" key="GridCell.Tab.2.bottom" timestamp="1589984617699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -308,10 +304,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state width="1388" height="152" key="GridCell.Tab.2.right/0.23.1440.877@0.23.1440.877" timestamp="1589984617699" />
-    <state x="172" y="23" width="1231" height="877" key="SettingsEditor" timestamp="1590159230116">
+    <state x="172" y="23" width="1231" height="877" key="SettingsEditor" timestamp="1590243368443">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="172" y="23" width="1231" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590159230116" />
+    <state x="172" y="23" width="1231" height="877" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1590243368443" />
     <state x="220" y="140" key="Vcs.Push.Dialog.v2" timestamp="1590155917614">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

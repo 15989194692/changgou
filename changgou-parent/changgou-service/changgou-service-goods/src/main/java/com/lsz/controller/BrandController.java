@@ -5,7 +5,6 @@ import com.lsz.pojo.Brand;
 import com.lsz.service.BrandService;
 import entity.Result;
 import entity.StatusCode;
-import io.swagger.models.auth.In;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -75,6 +74,11 @@ public class BrandController {
     public Result delete(@PathVariable Integer id) {
         brandService.deleteBrand(id);
         return new Result(true, StatusCode.OK, "删除品牌成功！");
+    }
+
+    @GetMapping("/category/{id}")
+    public Result<List<Brand>> findByCategoryId(@PathVariable(value = "id") Integer categoryId) {
+        return brandService.findByCategoryId(categoryId);
     }
 
 }

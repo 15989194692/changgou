@@ -8,6 +8,8 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lsz.dao.BrandMapper;
 import com.lsz.pojo.Brand;
 import com.lsz.service.BrandService;
+import entity.Result;
+import entity.StatusCode;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -70,6 +72,11 @@ public class BrandServiceImpl implements BrandService {
         brandMapper.deleteById(id);
     }
 
+    @Override
+    public Result<List<Brand>> findByCategoryId(Integer categoryId) {
+        List<Brand> byCategoryId = brandMapper.findByCategoryId(categoryId);
+        return new Result<List<Brand>>(true, StatusCode.OK, "根据分类id查询品牌集合成功！", byCategoryId);
+    }
 
 
     private LambdaQueryWrapper<Brand> getQueryWrapper(Brand brand) {

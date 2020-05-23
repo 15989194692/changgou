@@ -73,4 +73,12 @@ public interface BrandService {
     void deleteBrand(Integer id);
 
 
+    /**
+     * 根据分类Id查询品牌集合
+     * @param categoryId
+     * @return
+     */
+    Result<List<Brand>> findByCategoryId(Integer categoryId);
+
+
 }

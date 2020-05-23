@@ -6,6 +6,8 @@ import entity.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/category")
 @CrossOrigin
@@ -13,6 +15,12 @@ public class CategoryController {
 
     @Autowired
     CategoryService categoryService;
+
+
+    @GetMapping("/list/{pid}")
+    public Result<List<Category>> findByParentId(@PathVariable(value = "pid") Integer parentId) {
+        return categoryService.findByParentId(parentId);
+    }
 
 
     @GetMapping("/{id}")

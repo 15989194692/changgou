@@ -7,7 +7,7 @@ import java.util.List;
 
 public interface CategoryService {
 
-    
+
 
     /**
      * 根据父类ID查询分类
@@ -15,6 +15,21 @@ public interface CategoryService {
      * @return
      */
     Result<List<Category>> findByParentId(Integer parentId);
+
+
+    /**
+     * 查询所有分类
+     * @return
+     */
+    Result<List<Category>> findAll();
+
+    /**
+     * 根据条件查询分类
+     * @param category
+     * @return
+     */
+    Result<List<Category>> findByCondition(Category category);
+
 
 
     /**

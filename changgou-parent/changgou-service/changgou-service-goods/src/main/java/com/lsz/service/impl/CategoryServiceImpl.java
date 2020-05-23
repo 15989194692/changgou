@@ -31,6 +31,20 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
+    public Result<List<Category>> findAll() {
+        List<Category> categories = categoryMapper.selectList(null);
+        return new Result<List<Category>>(true, StatusCode.OK, "查询所有分类成功！", categories);
+    }
+
+    @Override
+    public Result<List<Category>> findByCondition(Category category) {
+        LambdaQueryWrapper<Category> queryWrapper = getQueryWrapper(category);
+
+        List<Category> categories = categoryMapper.selectList(queryWrapper);
+        return new Result<List<Category>>(true, StatusCode.OK, "根据条件查询分类成功！", categories);
+    }
+
+    @Override
     public Result<Category> findById(Integer id) {
         Category category = categoryMapper.selectById(id);
         return new Result<Category>(true, StatusCode.OK, "根据Id查询分类成功！", category);
