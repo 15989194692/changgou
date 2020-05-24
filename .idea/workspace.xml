@@ -26,24 +26,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df763d84-b983-4216-b1d0-60e13d884756" name="Default Changelist" comment="品牌增删改查，使用mybatis-plus实现">
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/ParaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/dao/ParaMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/ParaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/ParaServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/test/java/com/lsz/service/SkuServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/SpecService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/SpecService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/SpecServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/SpecServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/test/java/com/lsz/service/BrandServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/test/java/com/lsz/service/BrandServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpecController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/dao/BrandMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/dao/BrandMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/BrandService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/BrandService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/CategoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/AlbumServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/AlbumServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/BrandServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/BrandServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpecController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpecController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/CategoryServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/test-classes/com/lsz/service/BrandServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/test-classes/com/lsz/service/BrandServiceTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,9 +165,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SkuServiceTest.testFindAll" />
         <item itemvalue="Spring Boot.GoodsApplication" />
         <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="JUnit.SkuServiceTest.testFindAll" />
         <item itemvalue="Application.FastDFSClient" />
         <item itemvalue="Spring Boot.FileApplication" />
       </list>
@@ -209,7 +199,8 @@
       <workItem from="1590159166073" duration="13429000" />
       <workItem from="1590302059024" duration="13000" />
       <workItem from="1590302088897" duration="7694000" />
-      <workItem from="1590322117000" duration="2032000" />
+      <workItem from="1590322117000" duration="2129000" />
+      <workItem from="1590330490762" duration="1639000" />
     </task>
     <task id="LOCAL-00001" summary="品牌增删改查，使用mybatis-plus实现">
       <created>1590155906234</created>
@@ -261,10 +252,10 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="118" width="1187" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980969532" />
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590323935829">
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590330757707">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1590323935829" />
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1590330757707" />
     <state x="530" y="116" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1590157580017">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -277,38 +268,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1589981725949" />
-    <state width="1388" height="332" key="GridCell.Tab.0.bottom" timestamp="1590313472839">
+    <state width="1033" height="245" key="GridCell.Tab.0.bottom" timestamp="1590331894657">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="332" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590313472839" />
-    <state width="1388" height="332" key="GridCell.Tab.0.center" timestamp="1590313472839">
+    <state width="1033" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590331894657" />
+    <state width="1033" height="245" key="GridCell.Tab.0.center" timestamp="1590331894656">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="332" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590313472839" />
-    <state width="1388" height="332" key="GridCell.Tab.0.left" timestamp="1590313472838">
+    <state width="1033" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590331894656" />
+    <state width="1033" height="245" key="GridCell.Tab.0.left" timestamp="1590331894656">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="332" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590313472838" />
-    <state width="1388" height="332" key="GridCell.Tab.0.right" timestamp="1590313472839">
+    <state width="1033" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590331894656" />
+    <state width="1033" height="245" key="GridCell.Tab.0.right" timestamp="1590331894657">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1388" height="332" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590313472839" />
-    <state width="1033" height="246" key="GridCell.Tab.1.bottom" timestamp="1590313469269">
+    <state width="1033" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590331894657" />
+    <state width="1033" height="245" key="GridCell.Tab.1.bottom" timestamp="1590331894659">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="246" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590313469269" />
-    <state width="1033" height="246" key="GridCell.Tab.1.center" timestamp="1590313469268">
+    <state width="1033" height="245" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590331894659" />
+    <state width="1033" height="245" key="GridCell.Tab.1.center" timestamp="1590331894658">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="246" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590313469268" />
-    <state width="1033" height="246" key="GridCell.Tab.1.left" timestamp="1590313469268">
+    <state width="1033" height="245" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590331894658" />
+    <state width="1033" height="245" key="GridCell.Tab.1.left" timestamp="1590331894658">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="246" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590313469268" />
-    <state width="1033" height="246" key="GridCell.Tab.1.right" timestamp="1590313469269">
+    <state width="1033" height="245" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590331894658" />
+    <state width="1033" height="245" key="GridCell.Tab.1.right" timestamp="1590331894659">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="246" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590313469269" />
+    <state width="1033" height="245" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590331894659" />
     <state width="1388" height="152" key="GridCell.Tab.2.bottom" timestamp="1589984617699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

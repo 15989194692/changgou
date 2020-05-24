@@ -4,9 +4,7 @@ import com.lsz.pojo.Spec;
 import com.lsz.service.SpecService;
 import entity.Result;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -19,7 +17,8 @@ public class SpecController {
     private SpecService specService;
 
 
-    public Result<List<Spec>> findByCategoryId(Integer categoryId) {
+    @GetMapping("/category/{id}")
+    public Result<List<Spec>> findByCategoryId(@PathVariable("id") Integer categoryId) {
         return specService.findByCategoryId(categoryId);
     }
 

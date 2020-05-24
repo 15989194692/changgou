@@ -1,5 +1,6 @@
 package com.lsz.service;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lsz.pojo.Category;
 import entity.Result;
 
@@ -24,11 +25,29 @@ public interface CategoryService {
     Result<List<Category>> findAll();
 
     /**
+     * 分页查询所有分类
+     * @param page
+     * @param size
+     * @return
+     */
+    Result<IPage<Category>> findAll(Integer page, Integer size);
+
+    /**
      * 根据条件查询分类
      * @param category
      * @return
      */
     Result<List<Category>> findByCondition(Category category);
+
+
+    /**
+     * 分页+条件查询分类
+     * @param category
+     * @param page
+     * @param size
+     * @return
+     */
+    Result<IPage<Category>> findByCondition(Category category, Integer page, Integer size);
 
 
 

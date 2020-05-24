@@ -1,5 +1,6 @@
 package com.lsz.controller;
 
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.lsz.pojo.Category;
 import com.lsz.service.CategoryService;
 import entity.Result;
@@ -20,6 +21,28 @@ public class CategoryController {
     @GetMapping("/list/{pid}")
     public Result<List<Category>> findByParentId(@PathVariable(value = "pid") Integer parentId) {
         return categoryService.findByParentId(parentId);
+    }
+
+    @GetMapping
+    public Result<List<Category>> findAll() {
+        return categoryService.findAll();
+    }
+
+    @GetMapping("/search/{page}/{size}")
+    public Result<IPage<Category>> findAll(@PathVariable Integer page, @PathVariable Integer size) {
+        return categoryService.findAll(page, size);
+    }
+
+
+    @PostMapping("/search")
+    public Result<List<Category>> findByCondition(@RequestBody Category category) {
+        return categoryService.findByCondition(category);
+    }
+
+
+    @PostMapping("/search/{page}/{size}")
+    public Result<IPage<Category>> findByCondition(@RequestBody Category category, @PathVariable Integer page, @PathVariable Integer size) {
+        return categoryService.findByCondition(category, page, size);
     }
 
 

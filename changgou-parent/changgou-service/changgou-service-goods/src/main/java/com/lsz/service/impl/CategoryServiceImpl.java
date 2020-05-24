@@ -1,7 +1,9 @@
 package com.lsz.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.lsz.dao.CategoryMapper;
 import com.lsz.pojo.Category;
 import com.lsz.service.CategoryService;
@@ -37,11 +39,32 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
+    public Result<IPage<Category>> findAll(Integer page, Integer size) {
+        Page<Category> page1 = new Page<>(page, size);
+
+        LambdaQueryWrapper<Category> queryWrapper = getQueryWrapper(null);
+
+        Page<Category> categoryPage = categoryMapper.selectPage(page1, queryWrapper);
+        return new Result<>(true, StatusCode.OK, "分页查询所有分类成功！", categoryPage);
+    }
+
+    @Override
     public Result<List<Category>> findByCondition(Category category) {
         LambdaQueryWrapper<Category> queryWrapper = getQueryWrapper(category);
 
         List<Category> categories = categoryMapper.selectList(queryWrapper);
         return new Result<List<Category>>(true, StatusCode.OK, "根据条件查询分类成功！", categories);
+    }
+
+    @Override
+    public Result<IPage<Category>> findByCondition(Category category, Integer page, Integer size) {
+        Page<Category> page1 = new Page<>(page, size);
+
+        LambdaQueryWrapper<Category> queryWrapper = getQueryWrapper(category);
+
+        Page<Category> categoryPage = categoryMapper.selectPage(page1, queryWrapper);
+
+        return new Result<>(true, StatusCode.OK, "分页+条件查询分类成功！", categoryPage);
     }
 
     @Override
