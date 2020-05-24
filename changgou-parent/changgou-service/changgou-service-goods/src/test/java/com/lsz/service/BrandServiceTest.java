@@ -16,7 +16,7 @@ import java.util.List;
 public class BrandServiceTest {
 
     @Autowired
-    BrandService brandService;
+    private BrandService brandService;
 
 
     @Test

@@ -39,20 +39,20 @@ public class SpecServiceImpl implements SpecService {
 
         List<Spec> specs = specMapper.selectList(queryWrapper);
 
-        return new Result<List<Spec>>(true, StatusCode.OK, "根据分类id查询对应分类的模板id，再根据模板id查询参数成功！", specs);
+        return new Result<List<Spec>>(true, StatusCode.OK, "根据分类id查询对应分类的模板id，再根据模板id查询规格成功！", specs);
     }
 
     @Override
     public Result<List<Spec>> findAll() {
         List<Spec> specs = specMapper.selectList(null);
-        return new Result<List<Spec>>(true, StatusCode.OK, "查询所有参数成功！", specs);
+        return new Result<List<Spec>>(true, StatusCode.OK, "查询所有规格成功！", specs);
     }
 
     @Override
     public Result<List<Spec>> findByCondition(Spec spec) {
         LambdaQueryWrapper<Spec> queryWrapper = getQueryWrapper(spec);
         List<Spec> specs = specMapper.selectList(queryWrapper);
-        return new Result<List<Spec>>(true, StatusCode.OK, "根据条件查询参数成功！", specs);
+        return new Result<List<Spec>>(true, StatusCode.OK, "根据条件查询规格成功！", specs);
     }
 
     @Override
@@ -60,7 +60,7 @@ public class SpecServiceImpl implements SpecService {
         Page<Spec> page1 = new Page<>(page, size);
 
         Page<Spec> specPage = specMapper.selectPage(page1, null);
-        return new Result<IPage<Spec>>(true, StatusCode.OK, "分页查询所有参数成功！", specPage);
+        return new Result<IPage<Spec>>(true, StatusCode.OK, "分页查询所有规格成功！", specPage);
     }
 
     @Override
@@ -69,17 +69,17 @@ public class SpecServiceImpl implements SpecService {
         LambdaQueryWrapper<Spec> queryWrapper = getQueryWrapper(spec);
         Page<Spec> specPage = specMapper.selectPage(page1, queryWrapper);
 
-        return new Result<IPage<Spec>>(true, StatusCode.OK, "分页+条件查询参数成功！", specPage);
+        return new Result<IPage<Spec>>(true, StatusCode.OK, "分页+条件查询规格成功！", specPage);
     }
 
     @Override
     public Result<Spec> findById(Integer id) {
         if (id == null) {
-            new Result<>(false, StatusCode.ERROR, "没有传入要查询的参数Id！");
+            new Result<>(false, StatusCode.ERROR, "没有传入要查询的规格Id！");
         }
         Spec spec = specMapper.selectById(id);
 
-        return new Result<Spec>(true, StatusCode.OK, "根据Id查询参数成功！", spec);
+        return new Result<Spec>(true, StatusCode.OK, "根据Id查询规格成功！", spec);
     }
 
     @Override
@@ -87,25 +87,25 @@ public class SpecServiceImpl implements SpecService {
         spec.setId(null);
 
         specMapper.insert(spec);
-        return new Result(true, StatusCode.OK, "新增参数成功！");
+        return new Result(true, StatusCode.OK, "新增规格成功！");
     }
 
     @Override
     public Result update(Spec spec) {
         if (spec.getId() == null) {
-            new Result<>(false, StatusCode.ERROR, "没有传入要修改的参数Id！");
+            new Result<>(false, StatusCode.ERROR, "没有传入要修改的规格Id！");
         }
         specMapper.updateById(spec);
-        return new Result(true, StatusCode.OK, "修改参数成功！");
+        return new Result(true, StatusCode.OK, "修改规格成功！");
     }
 
     @Override
     public Result delete(Integer id) {
         if (id == null) {
-            new Result<>(false, StatusCode.ERROR, "没有传入要删除的参数Id！");
+            new Result<>(false, StatusCode.ERROR, "没有传入要删除的规格Id！");
         }
         specMapper.deleteById(id);
-        return new Result(true, StatusCode.OK, "删除参数成功！");
+        return new Result(true, StatusCode.OK, "删除规格成功！");
     }
 
 

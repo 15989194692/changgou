@@ -10,21 +10,21 @@ public interface SpecService {
 
 
     /**
-     * 根据分类id查询出分类对应的模板id，再根据模板id查询参数
+     * 根据分类id查询出分类对应的模板id，再根据模板id查询规格
      * @param categoryId
      * @return
      */
     Result<List<Spec>> findByCategoryId(Integer categoryId);
 
     /**
-     * 查询所有参数列表
+     * 查询所有规格列表
      * @return
      */
     Result<List<Spec>> findAll();
 
 
     /**
-     * 根据条件查询参数列表
+     * 根据条件查询规格列表
      * @param spec
      * @return
      */
@@ -32,7 +32,7 @@ public interface SpecService {
 
 
     /**
-     * 分页查询所有参数列表
+     * 分页查询所有规格列表
      * @param page
      * @param size
      * @return
@@ -41,7 +41,7 @@ public interface SpecService {
 
 
     /**
-     * 分页+条件查询参数列表
+     * 分页+条件查询规格列表
      * @param spec
      * @param page
      * @param size
@@ -51,7 +51,7 @@ public interface SpecService {
 
 
     /**
-     * 根据Id查询参数
+     * 根据Id查询规格
      * @param id
      * @return
      */
@@ -59,7 +59,7 @@ public interface SpecService {
 
 
     /**
-     * 新增参数
+     * 新增规格
      * @param spec
      * @return
      */
@@ -67,7 +67,7 @@ public interface SpecService {
 
 
     /**
-     * 修改参数
+     * 修改规格
      * @param spec
      * @return
      */
@@ -75,7 +75,7 @@ public interface SpecService {
 
 
     /**
-     * 根据Id删除参数
+     * 根据Id删除规格
      * @param id
      * @return
      */
