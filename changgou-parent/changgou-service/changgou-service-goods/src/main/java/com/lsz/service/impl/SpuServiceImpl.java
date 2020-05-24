@@ -18,8 +18,10 @@ import java.util.List;
 @Service
 public class SpuServiceImpl implements SpuService {
 
+    private Integer DELETE = 1;
+
     @Autowired
-    SpuMapper spuMapper;
+    private SpuMapper spuMapper;
 
 
     @Override
@@ -61,7 +63,7 @@ public class SpuServiceImpl implements SpuService {
     }
 
     @Override
-    public Result<Spu> findById(Integer id) {
+    public Result<Spu> findById(String id) {
         if (id == null) {
             return new Result<>(false, StatusCode.ERROR, "没有传入要查询的商品公共属性Id！");
         }
@@ -85,7 +87,7 @@ public class SpuServiceImpl implements SpuService {
     }
 
     @Override
-    public Result delete(Integer id) {
+    public Result delete(String id) {
         if (id == null) {
             return new Result<>(false, StatusCode.ERROR, "没有传入要删除的商品公共属性Id！");
         }
@@ -97,10 +99,10 @@ public class SpuServiceImpl implements SpuService {
     private LambdaQueryWrapper<Spu> getQueryWrapper(Spu spu) {
         LambdaQueryWrapper<Spu> queryWrapper = Wrappers.lambdaQuery();
 
-        queryWrapper.eq(Spu::getIsDelete, 0);
+        queryWrapper.ne(Spu::getIsDelete, DELETE);
 
         if (spu != null) {
-            if (spu.getId() != null) {
+            if (StringUtils.isNotBlank(spu.getId())) {
                 queryWrapper.eq(Spu::getId, spu.getId());
             }
 

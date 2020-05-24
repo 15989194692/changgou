@@ -46,7 +46,7 @@ public interface SpuService {
      * @param id
      * @return
      */
-    Result<Spu> findById(Integer id);
+    Result<Spu> findById(String id);
 
     /**
      * 新增商品公共属性
@@ -69,5 +69,5 @@ public interface SpuService {
      * @param id
      * @return
      */
-    Result delete(Integer id);
+    Result delete(String id);
 }

@@ -16,7 +16,7 @@ import java.util.List;
 public class SpecController {
 
     @Autowired
-    SpecService specService;
+    private SpecService specService;
 
 
     public Result<List<Spec>> findByCategoryId(Integer categoryId) {

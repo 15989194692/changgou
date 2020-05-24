@@ -22,10 +22,10 @@ import java.util.List;
 public class SpecServiceImpl implements SpecService {
 
     @Autowired
-    SpecMapper specMapper;
+    private SpecMapper specMapper;
 
     @Autowired
-    CategoryMapper categoryMapper;
+    private CategoryMapper categoryMapper;
 
 
     @Override

@@ -21,7 +21,7 @@ import java.util.List;
 public class AlbumServiceImpl implements AlbumService {
 
     @Autowired
-    AlbumMapper albumMapper;
+    private AlbumMapper albumMapper;
 
 
     @Override
