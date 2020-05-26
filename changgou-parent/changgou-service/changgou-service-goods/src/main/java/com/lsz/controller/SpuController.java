@@ -1,6 +1,7 @@
 package com.lsz.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lsz.pojo.Goods;
 import com.lsz.pojo.Spu;
 import com.lsz.service.SpuService;
 import entity.Result;
@@ -16,6 +17,39 @@ public class SpuController {
 
     @Autowired
     private SpuService spuService;
+
+
+    @DeleteMapping("/delete/{id}")
+    public Result deleteGoods(@PathVariable("id") String spuId) {
+        return spuService.deleteGoods(spuId);
+    }
+
+    @PutMapping("/put/many")
+    public Result putBatch(@RequestBody List<String> spuIds) {
+        return spuService.putBatch(spuIds);
+    }
+
+
+    @PutMapping("/put/{id}")
+    public Result put(@PathVariable("id") String spuId) {
+        return spuService.put(spuId);
+    }
+
+    @PutMapping("/pull/{id}")
+    public Result pull(@PathVariable("id") String spuId) {
+        return spuService.pull(spuId);
+    }
+
+
+    @PutMapping("/audit/{id}")
+    public Result audit(@PathVariable("id") String spuId) {
+        return spuService.audit(spuId);
+    }
+
+    @GetMapping("/goods/{id}")
+    public Result<Goods> findGoodsById(@PathVariable("id") String spuId) {
+        return spuService.findGoodsById(spuId);
+    }
 
     @GetMapping
     public Result<List<Spu>> findAll() {

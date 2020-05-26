@@ -26,14 +26,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df763d84-b983-4216-b1d0-60e13d884756" name="Default Changelist" comment="品牌增删改查，使用mybatis-plus实现">
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-common/src/main/java/util/IdWorker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/lsz/pojo/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/test/java/com/lsz/service/SpuServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpecController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpecController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/CategoryServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/CategoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpecController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpecController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/lsz/pojo/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/src/main/java/com/lsz/pojo/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/lsz/pojo/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service-api/changgou-service-goods-api/target/classes/com/lsz/pojo/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/GoodsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/GoodsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/controller/SpuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/SpuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/SpuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/SpuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/java/com/lsz/service/impl/SpuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/GoodsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/GoodsApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/BrandController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/BrandController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/controller/SpuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/SpuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/SpuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/SpuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/changgou-parent/changgou-service/changgou-service-goods/target/classes/com/lsz/service/impl/SpuServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +90,9 @@
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/changgou-parent/changgou-common/src/main/java/entity" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.lsz.service" />
     </key>
@@ -94,7 +108,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SkuServiceTest.testFindAll">
+  <component name="RunManager" selected="JUnit.SpuServiceTest.testPutBatch">
     <configuration name="FastDFSClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.lsz.utils.FastDFSClient" />
       <module name="changgou-service-file" />
@@ -124,6 +138,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpuServiceTest.testPutBatch" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="changgou-service-goods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lsz.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lsz.service" />
+      <option name="MAIN_CLASS_NAME" value="com.lsz.service.SpuServiceTest" />
+      <option name="METHOD_NAME" value="testPutBatch" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="changgou-eureka" />
       <extension name="coverage">
@@ -133,19 +163,6 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.lsz.EurekaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="changgou-service-file" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.lsz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lsz.FileApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,10 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.GoodsApplication" />
+        <item itemvalue="JUnit.SpuServiceTest.testPutBatch" />
         <item itemvalue="Spring Boot.EurekaApplication" />
         <item itemvalue="JUnit.SkuServiceTest.testFindAll" />
         <item itemvalue="Application.FastDFSClient" />
-        <item itemvalue="Spring Boot.FileApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +217,9 @@
       <workItem from="1590302059024" duration="13000" />
       <workItem from="1590302088897" duration="7694000" />
       <workItem from="1590322117000" duration="2129000" />
-      <workItem from="1590330490762" duration="1639000" />
+      <workItem from="1590330490762" duration="4476000" />
+      <workItem from="1590385855995" duration="6919000" />
+      <workItem from="1590481205912" duration="6156000" />
     </task>
     <task id="LOCAL-00001" summary="品牌增删改查，使用mybatis-plus实现">
       <created>1590155906234</created>
@@ -244,18 +263,18 @@
     <option name="LAST_COMMIT_MESSAGE" value="品牌增删改查，使用mybatis-plus实现" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="80" y="23" key="#Project_Structure" timestamp="1590310694891">
+    <state x="80" y="23" key="#Project_Structure" timestamp="1590420695758">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="80" y="23" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1590310694891" />
+    <state x="80" y="23" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1590420695758" />
     <state x="180" y="118" width="1187" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589980969532">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="180" y="118" width="1187" height="686" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1589980969532" />
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590330757707">
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590505410221">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1590330757707" />
+    <state x="486" y="105" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1590505410221" />
     <state x="530" y="116" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1590157580017">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -268,38 +287,38 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="100" y="123" width="1240" height="677" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1589981725949" />
-    <state width="1033" height="245" key="GridCell.Tab.0.bottom" timestamp="1590331894657">
+    <state width="1033" height="295" key="GridCell.Tab.0.bottom" timestamp="1590512954078">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590331894657" />
-    <state width="1033" height="245" key="GridCell.Tab.0.center" timestamp="1590331894656">
+    <state width="1033" height="295" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590512954078" />
+    <state width="1033" height="295" key="GridCell.Tab.0.center" timestamp="1590512954077">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590331894656" />
-    <state width="1033" height="245" key="GridCell.Tab.0.left" timestamp="1590331894656">
+    <state width="1033" height="295" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590512954077" />
+    <state width="1033" height="295" key="GridCell.Tab.0.left" timestamp="1590512954077">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590331894656" />
-    <state width="1033" height="245" key="GridCell.Tab.0.right" timestamp="1590331894657">
+    <state width="1033" height="295" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590512954077" />
+    <state width="1033" height="295" key="GridCell.Tab.0.right" timestamp="1590512954077">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590331894657" />
-    <state width="1033" height="245" key="GridCell.Tab.1.bottom" timestamp="1590331894659">
+    <state width="1033" height="295" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590512954077" />
+    <state width="1033" height="295" key="GridCell.Tab.1.bottom" timestamp="1590512954079">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590331894659" />
-    <state width="1033" height="245" key="GridCell.Tab.1.center" timestamp="1590331894658">
+    <state width="1033" height="295" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590512954079" />
+    <state width="1033" height="295" key="GridCell.Tab.1.center" timestamp="1590512954079">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590331894658" />
-    <state width="1033" height="245" key="GridCell.Tab.1.left" timestamp="1590331894658">
+    <state width="1033" height="295" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1590512954079" />
+    <state width="1033" height="295" key="GridCell.Tab.1.left" timestamp="1590512954078">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590331894658" />
-    <state width="1033" height="245" key="GridCell.Tab.1.right" timestamp="1590331894659">
+    <state width="1033" height="295" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1590512954078" />
+    <state width="1033" height="295" key="GridCell.Tab.1.right" timestamp="1590512954079">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1033" height="245" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590331894659" />
+    <state width="1033" height="295" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1590512954079" />
     <state width="1388" height="152" key="GridCell.Tab.2.bottom" timestamp="1589984617699">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
@@ -336,9 +355,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="0" y="23" key="new project wizard/0.23.1440.877@0.23.1440.877" timestamp="1590156630245" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1590239265460">
+    <state x="301" y="23" width="838" height="877" key="search.everywhere.popup" timestamp="1590496759641">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1590239265460" />
+    <state x="301" y="23" width="838" height="877" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1590496759641" />
   </component>
 </project>

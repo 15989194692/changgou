@@ -1,6 +1,7 @@
 package com.lsz.service;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.lsz.pojo.Goods;
 import com.lsz.pojo.Spu;
 import entity.Result;
 
@@ -8,6 +9,55 @@ import java.util.List;
 
 public interface SpuService {
 
+
+    /**
+     * 根据spuId删除商品
+     * @param spuId
+     * @return
+     */
+    public Result deleteGoods(String spuId);
+
+    /**
+     * 批量上架
+     * @param spuIds
+     * @return
+     */
+    public Result putBatch(List<String> spuIds);
+
+    /**
+     * 商品上架
+     * @param spuId
+     * @return
+     */
+    public Result put(String spuId);
+
+    /**
+     * 商品下架
+     * @param spuId
+     * @return
+     */
+    public Result pull(String spuId);
+
+    /**
+     * 审核：根据spuId修改商品的状态
+     * @param spuId
+     * @return
+     */
+    public Result audit(String spuId);
+
+    /**
+     * 新增商品信息
+     * @param goods
+     * @return
+     */
+    Result saveGoods(Goods goods);
+
+    /**
+     * 根据商品id查询商品的spu和skuList属性
+     * @param spuId
+     * @return
+     */
+    Result<Goods> findGoodsById(String spuId);
 
     /**
      * 查询所有商品公共属性
